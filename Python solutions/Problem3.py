@@ -1,4 +1,5 @@
 class Solution:
+    @staticmethod
     def lengthOfLongestSubstring(self, s: str) -> int:
         best_try = 0
         char_index = 0

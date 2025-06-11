@@ -1,5 +1,6 @@
 
 class Solution(object):
+    @staticmethod
     def twoSum(self, nums, target):
         for index0 in range(len(nums)):
             objetive = target - nums[index0]
